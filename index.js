@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
       tech: ["SQL", "Distributed Systems", "Power Apps", "HTML", "ChartJS"],
       description: "This dashboard serves as a centralized hub for all KPIs of the Global Finance Service Center.",
       gallery: [
-        "assets/images/CT/CT-2ndpage.png",
+        "assets/images/CT/CT-2ndPage.png",
         "assets/images/CT/CT-HomeFilters.png",
         "assets/images/CT/CT-2ndPage-RootCause.png"
       ],
