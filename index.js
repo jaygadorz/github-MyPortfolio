@@ -29,7 +29,8 @@ document.addEventListener("DOMContentLoaded", () => {
       gallery: [
         "assets/images/PM/PM-ProjectDTL.png",
         "assets/images/PM/PM-RunningTaskTimer.png",
-        "assets/images/PM/PM-ProjectPhase.png"
+        "assets/images/PM/PM-ProjectPhase.png",
+        "assets/images/PM/PM-Home.png"
       ],
       features: [
         {
@@ -83,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
       tech: ["SQL", "Distributed Systems", "Power Apps", "HTML", "ChartJS"],
       description: "This dashboard serves as a centralized hub for all KPIs of the Global Finance Service Center.",
       gallery: [
-        "assets/images/CT/CT-DrillDown.png",
+        "assets/images/CT/CT-2ndPage.png",
         "assets/images/CT/CT-HomeFilters.png",
         "assets/images/CT/CT-2ndPage-RootCause.png"
       ],
