@@ -5,77 +5,232 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name | Analytics Engineer</title>
+  <title>Joel Gador | Data Analytics Engineer</title>
 
   <link rel="stylesheet" href="index.css" />
+
+  <!-- Vanta.js animated background -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
 </head>
 <body>
 
   <header class="hero">
-    <h1>Your Name</h1>
-    <p class="subtitle">Analytics Engineer · Data Platforms · Dashboards</p>
-    <p class="tagline">
-      I build scalable analytics systems and decision-ready dashboards.
-    </p>
+    <div class="hero-content">
+      <img src="assets/images/myProfile.JPG" alt="Joel Gador" class="hero-image">
+      <div class="hero-text">
+        <h1>Joel Gador</h1>
+        <p class="subtitle">Analytics Engineer · Power Platform · Storytelling Dashboards</p>
+        <p class="tagline">
+          I build scalable analytics systems and decision-ready dashboards to help the people and business thrive.
+        </p>
+
+        <!-- Contact info in hero - all buttons in one row -->
+        <div class="hero-actions">
+          <a href="mailto:joeljovengador@gmail.com" class="contact-link">
+            <span class="contact-icon">✉</span>
+            <span class="contact-text">Email</span>
+          </a>
+          <a href="tel:+639958130585" class="contact-link">
+            <span class="contact-icon">📱</span>
+            <span class="contact-text">Call</span>
+          </a>
+          <a href="https://www.linkedin.com/in/joel-gador-424550233" class="hero-link" target="_blank" rel="noopener noreferrer">
+            Connect on LinkedIn
+          </a>
+        </div>
+      </div>
   </header>
 
   <main>
 
     <section class="section">
-      <h2>Selected Work</h2>
+      <h2>Recent Projects</h2>
+
+
 
       <div class="grid">
         <!-- CARD 1 -->
-        <div class="card">
-          <img src="assets/images/dashboard-1.png" alt="Dashboard project">
+        <div class="card" data-project-id="1">
+          <div class="card-media">
+            <img src="assets/images/PM/PM-Home.png" alt="Dashboard project">
+          </div>
           <div class="card-body">
-            <h3>Sales Performance Dashboard</h3>
+            <h3>Project and Workflow Management</h3>
+
+            <span class="tech">SQL · Power Apps · Power BI · Dataverse</span>
+
             <p>
-              End-to-end analytics pipeline with SQL modeling and executive-level KPIs.
+              An integrated project and workflow management system that drives Continuous Improvement delivery 
+              by centralizing project tracking, savings, resources, timelines, and team governance in one real-time platform.
             </p>
-            <span class="tech">SQL · Power BI · Azure</span>
+
+          </div>
+          <div class="card-footer">
+            <span>2026</span>
+            <a href="#" class="card-action view-project">View Details →</a>
           </div>
         </div>
 
         <!-- CARD 2 -->
-        <div class="card">
-          <img src="assets/images/dashboard-2.png" alt="Dashboard project">
+        <div class="card" data-project-id="2">
+          <div class="card-media">
+            <img src="assets/images/GRT/GRT-Home2.png" alt="Dashboard project">
+          </div>
           <div class="card-body">
-            <h3>Operations Monitoring</h3>
+            <h3>Centralized Approval Platform</h3>
+            <span class="tech">Power Automate · SQL · Power BI</span>
+
             <p>
-              Real-time operational metrics with alert-ready design.
+              An integrated case management and approval platform designed for the Medical Customer Service 
+              to submit customer requests for account review. 
+              Cases can be tracked and actioned directly via Outlook or in-app, 
+              with synchronized status updates (In Review, Approved, Rejected) and real-time collaboration to 
+              ensure transparency and accountability. 
             </p>
-            <span class="tech">Python · Superset · PostgreSQL</span>
+            
+            <p>
+              The system enforces a tiered approval structure based on predefined dollar thresholds, 
+              automatically routing higher-value requests to the Director or VP for authorization 
+              to ensure proper governance and financial control.
+            </p>
+            
+          </div>
+          <div class="card-footer">
+            <span>2026</span>
+            <a href="#" class="card-action view-project">View Details →</a>
           </div>
         </div>
 
+
+
         <!-- CARD 3 -->
-        <div class="card">
-          <img src="assets/images/dashboard-3.png" alt="Dashboard project">
+        <div class="card" data-project-id="3">
+          <div class="card-media">
+            <img src="assets/images/CT/CT-Home.png" alt="Dashboard project">
+          </div>
           <div class="card-body">
-            <h3>Financial Forecasting</h3>
+            <h3>Global Finance Executive Dashboard</h3>
+            <span class="tech">SQL · Distributed Systems Architecture · Power Apps + HTML  · ChartJS</span>
+
             <p>
-              Forecast models and scenario analysis for leadership.
+              This dashboard serves as a centralized hub for all KPIs of the Global Finance Service Center, 
+              providing visibility into performance trends, historical values, and key insights 
+              through an interactive card-based view. 
+              </p>
+              
+              <p>
+              It also includes a collaborative workspace where managers and 
+              executives can document root causes, define action plans, and provide metric-level comments 
+              to drive accountability and continuous improvement.
             </p>
-            <span class="tech">SQL · DAX · Excel</span>
+            
+          </div>
+          <div class="card-footer">
+            <span>2026</span>
+            <a href="#" class="card-action view-project">View Details →</a>
           </div>
         </div>
+
 
       </div>
     </section>
 
     <section class="section about">
+
       <h2>About Me</h2>
       <p>
         I specialize in building analytics systems that scale — from data ingestion,
         modeling, and transformation to insight delivery through dashboards and reports.
       </p>
+
+      <!-- Skills Section -->
+      <div class="skills-container">
+        <!-- Technical Stack -->
+        <div class="skill-group">
+          <h3 class="skill-group-title">Technical Stack</h3>
+          <div class="skills-grid">
+            <span class="skill-pill">SQL</span>
+            <span class="skill-pill">Power Platform</span>
+            <span class="skill-pill">Power BI</span>
+            <span class="skill-pill">Tableau</span>
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">Copilot/PVA</span>
+            <span class="skill-pill">Ai Builder</span>
+          </div>
+        </div>
+
+        <!-- Core Competencies -->
+        <div class="skill-group">
+          <h3 class="skill-group-title">Core Competencies</h3>
+          <div class="skills-grid">
+            <span class="skill-pill">Data Modelling</span>
+            <span class="skill-pill">System Architecture</span>
+            <span class="skill-pill">Data Analytics</span>
+            <span class="skill-pill">Extract, Transform, Load (ETL)</span>
+            <span class="skill-pill">Extract, Load, Transform (ELT)</span>
+            <span class="skill-pill">Business Intelligence</span>
+            <span class="skill-pill">Process Optimization</span>
+            <span class="skill-pill">Storytelling</span>
+          </div>
+        </div>
+
+        <!-- Methodologies -->
+        <div class="skill-group">
+          <h3 class="skill-group-title">Methodologies</h3>
+          <div class="skills-grid">
+            <span class="skill-pill">Project Management</span>
+            <span class="skill-pill">Lean Six Sigma</span>
+            <span class="skill-pill">Agile</span>
+            <span class="skill-pill">Strategic Planning</span>
+            <span class="skill-pill">SDLC</span>
+          </div>
+        </div>
+      </div>
+
     </section>
 
   </main>
 
+
+
+  <!-- Project Modal -->
+  <div id="project-modal" class="modal">
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+      <div class="modal-body">
+        
+<!-- Gallery Section -->
+        <div class="modal-gallery">
+          <div class="gallery-main">
+            <img id="gallery-main-image" src="" alt="Project" class="gallery-image">
+          </div>
+          <div id="gallery-thumbnails-container" class="gallery-thumbnails"></div>
+        </div>
+
+        <!-- Project Details -->
+        <div class="modal-details">
+          <h2 id="modal-title">Project Title</h2>
+          <div class="modal-meta">
+            <span class="modal-year" id="modal-year">2026</span>
+            <div id="modal-tech" class="modal-tech"></div>
+          </div>
+          <p id="modal-description">Project description</p>
+          
+          <!-- Features Section -->
+          <div id="modal-features" class="modal-features"></div>
+          
+          <div class="modal-links">
+            <a id="modal-github" href="#" target="_blank" rel="noopener noreferrer" class="modal-link">GitHub →</a>
+            <a id="modal-live" href="#" target="_blank" rel="noopener noreferrer" class="modal-link">Live Demo →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <footer>
-    <p>© 2026 Your Name · Hosted on GitHub Pages</p>
+    <p>© 2026 Joel Gador · Hosted on GitHub Pages</p>
   </footer>
 
   <script src="index.js"></script>
